@@ -32,6 +32,7 @@ Plug 'tpope/vim-commentary'
 Plug 'terryma/vim-multiple-cursors'
 
 " Languages
+Plug 'leafgarland/typescript-vim'
 Plug 'sheerun/vim-polyglot'
 
 " Git

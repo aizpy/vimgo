@@ -286,6 +286,7 @@ endtry
 " => polyglot
 """""""""""""""""
 autocmd! BufNewFile,BufRead *.vs,*.fs set ft=glsl
+let g:polyglot_disabled = ['typescript']
 
 
 
