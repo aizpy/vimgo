@@ -30,7 +30,11 @@ map <leader>ts :%s/\s\+$//e<cr>:noh<cr>:w<cr>
 " map - :Explore<cr>
 
 " yank to system clipboard
-noremap <leader>y "+y
+if system('uname -r') =~ "microsoft"
+  noremap <leader>y :call system('/mnt/c/windows/system32/clip.exe ',@")<CR>
+else
+  noremap <leader>y "+y
+endif
 
 " paste from clipboard
 noremap <leader>p "+p

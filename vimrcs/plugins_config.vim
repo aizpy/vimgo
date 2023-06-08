@@ -195,6 +195,8 @@ let g:indentLine_char = '│'
 let g:indentLine_first_char = '│'
 let g:indentLine_color_gui = '#434343'
 let g:indentLine_showFirstIndentLevel = 1
+let g:markdown_syntax_conceal=0
+let g:vim_json_conceal=0
 
 
 " Run Startify with NERDTree!
