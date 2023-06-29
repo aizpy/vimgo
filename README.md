@@ -15,7 +15,7 @@ Vimgo uses [vim-airline](https://github.com/vim-airline/vim-airline). For the ni
 ## Install
 To install vimgo, simply do following in your terminal: 
 ```
-git clone https://github.com/pyericz/vimgo.git ~/.vimgo
+git clone https://github.com/aizpy/vimgo.git ~/.vimgo
 cd ~/.vimgo && ./install.sh
 ```
 
